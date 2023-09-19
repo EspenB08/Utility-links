@@ -1,0 +1,54 @@
+
+.container1, .container2, .container3, .container4, .container5, .container6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1% 1%;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 5px;
+    background-color: yellow;
+    padding: 2% 1%;
+    border-radius: 5%;
+    min-width: 300px;
+}
+.hover:hover{
+    background-color: red;
+}
+.hover{
+    transition: 0.5s;
+
+}
+img{
+    border-radius: 5%;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+}
+.section, .section2{
+    display: flex;
+    justify-content: center;
+    
+    margin: 5% 0 0;
+}
+.btn{
+    padding: 5% 25%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    padding: 10% 10%;
+    background-color: black;
+    color: #90c040;
+    border-radius: 11%;
+    font-size: 16px;
+    margin: 0 0 5%;
+}
+p{
+    text-align: center;
+    margin: 5% 0;
+    font-size: 19px;
+}

@@ -47,8 +47,26 @@ a{
     font-size: 16px;
     margin: 0 0 5%;
 }
+a:hover{
+    background-color: indigo;
+}
 p{
     text-align: center;
     margin: 5% 0;
     font-size: 19px;
+}
+body{
+    animation-name: testing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes testing{
+0%{ background-color: red;}
+14.28%{ background-color: orange;}
+28.56%{background-color: yellow;}
+42.84%{background-color: green;}
+57.12%{background-color: blue;}
+71.4%{background-color: indigo;}
+85.68%{background-color: violet;}
+100%{background-color: red;}
 }
